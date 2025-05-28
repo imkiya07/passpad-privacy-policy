@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - PassPad</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, sans-serif;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        color: #333;
+      }
+      h1 {
+        color: #2c3e50;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 10px;
+      }
+      h2 {
+        color: #34495e;
+        margin-top: 30px;
+      }
+      .highlight {
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-left: 4px solid #3498db;
+        margin: 15px 0;
+      }
+      .contact-info {
+        background-color: #e8f5e8;
+        padding: 15px;
+        border-radius: 5px;
+        margin: 20px 0;
+      }
+      .last-updated {
+        font-style: italic;
+        color: #666;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Privacy Policy for PassPad</h1>
+
+    <div class="last-updated">Last updated: May 28, 2025</div>
+
+    <div class="highlight">
+      <strong>Important:</strong> PassPad is designed with privacy and security
+      as core principles. Your sensitive vault data is encrypted end-to-end and
+      stored both on our secure servers and locally on your device for offline
+      access. We use zero-knowledge encryption, meaning only you can decrypt and
+      access your passwords and notes - we cannot see your vault contents even
+      though they are stored on our servers.
+    </div>
+
+    <h2>1. Information We Collect</h2>
+
+    <h3>1.1 Account Information</h3>
+    <p>When you create an account with PassPad, we collect:</p>
+    <ul>
+      <li>
+        <strong>Email Address:</strong> Used for account authentication and
+        recovery
+      </li>
+      <li>
+        <strong>Master Password (Hashed):</strong> Stored in hashed form for
+        authentication purposes only
+      </li>
+      <li>
+        <strong>Encryption Salt:</strong> Unique salt for your account used in
+        key derivation (stored on our servers)
+      </li>
+      <li>
+        <strong>Account Creation Date:</strong> For account management purposes
+      </li>
+      <li>
+        <strong>Authentication Tokens:</strong> Access and refresh tokens for
+        secure API communication
+      </li>
+    </ul>
+
+    <h3>1.2 Vault Data (End-to-End Encrypted)</h3>
+    <p>Your vault data is encrypted end-to-end and stored in two locations:</p>
+
+    <h4>1.2.1 Server Storage (Primary)</h4>
+    <ul>
+      <li>
+        <strong>Encrypted Login Credentials:</strong> Usernames, passwords,
+        URLs, and notes (all encrypted)
+      </li>
+      <li>
+        <strong>Encrypted Secure Notes:</strong> Rich-text notes and custom
+        fields (all encrypted)
+      </li>
+      <li>
+        <strong>Metadata:</strong> Creation dates, modification dates, and item
+        IDs (not encrypted)
+      </li>
+      <li>
+        <strong>Sync Data:</strong> Information for cross-device synchronization
+      </li>
+    </ul>
+
+    <h4>1.2.2 Local Storage (Offline Access)</h4>
+    <ul>
+      <li>
+        <strong>Cached Vault Data:</strong> Local copy of your encrypted vault
+        for offline access
+      </li>
+      <li>
+        <strong>App Settings:</strong> User preferences and security
+        configurations
+      </li>
+      <li>
+        <strong>Encryption Keys:</strong> Derived encryption keys stored
+        securely on your device
+      </li>
+    </ul>
+
+    <h3>1.3 Biometric Data</h3>
+    <p>
+      If you choose to enable biometric authentication (fingerprint, face
+      recognition, etc.):
+    </p>
+    <ul>
+      <li>
+        Biometric data is processed locally on your device using your device's
+        secure biometric APIs
+      </li>
+      <li>
+        We do not collect, store, or transmit your biometric information to our
+        servers
+      </li>
+      <li>Biometric authentication is used solely to unlock the app locally</li>
+    </ul>
+
+    <h3>1.4 Technical Information</h3>
+    <p>We may collect limited technical information for app functionality:</p>
+    <ul>
+      <li>Device information (OS version, app version) for compatibility</li>
+      <li>Error logs and crash reports (anonymized) for app improvement</li>
+      <li>Network connectivity status for sync functionality</li>
+      <li>API request metadata for security and performance monitoring</li>
+    </ul>
+
+    <h2>2. How We Use Your Information</h2>
+
+    <h3>2.1 Primary Purposes</h3>
+    <ul>
+      <li>
+        <strong>Account Authentication:</strong> Verify your identity when
+        logging into the app
+      </li>
+      <li>
+        <strong>Data Security:</strong> Encrypt and protect your sensitive
+        information
+      </li>
+      <li>
+        <strong>App Functionality:</strong> Enable core password management
+        features
+      </li>
+      <li>
+        <strong>Local Storage:</strong> Store your encrypted vault data on your
+        device
+      </li>
+    </ul>
+
+    <h3>2.2 Security Measures</h3>
+    <ul>
+      <li>
+        All sensitive data is encrypted using industry-standard AES encryption
+      </li>
+      <li>Passwords are stored using secure key derivation functions</li>
+      <li>Local authentication prevents unauthorized access to your vault</li>
+      <li>App lock functionality protects against unauthorized access</li>
+    </ul>
+
+    <h2>3. Data Storage and Security</h2>
+
+    <h3>3.1 Local Storage</h3>
+    <p>Your vault data is stored locally on your device using:</p>
+    <ul>
+      <li>
+        <strong>SQLite Database:</strong> Encrypted database for vault items
+      </li>
+      <li>
+        <strong>Secure Storage:</strong> Device keychain/keystore for sensitive
+        keys
+      </li>
+      <li>
+        <strong>Encrypted Preferences:</strong> App settings and configurations
+      </li>
+    </ul>
+
+    <h3>3.2 Encryption</h3>
+    <ul>
+      <li>End-to-end encryption ensures only you can access your data</li>
+      <li>Master password derivatives are used for encryption keys</li>
+      <li>Each vault item is individually encrypted</li>
+      <li>Encryption keys never leave your device</li>
+    </ul>
+
+    <h3>3.3 Network Security</h3>
+    <ul>
+      <li>All network communications use HTTPS encryption</li>
+      <li>API requests are authenticated and secured</li>
+      <li>No vault contents are transmitted over the network</li>
+    </ul>
+
+    <h2>4. Data Sharing and Disclosure</h2>
+
+    <div class="highlight">
+      <strong
+        >We do not sell, trade, or share your personal information with third
+        parties.</strong
+      >
+    </div>
+
+    <h3>4.1 No Third-Party Sharing</h3>
+    <ul>
+      <li>Your vault contents remain private and are never shared</li>
+      <li>We do not use your data for advertising or marketing purposes</li>
+      <li>
+        No analytics or tracking services have access to your sensitive data
+      </li>
+    </ul>
+
+    <h3>4.2 Legal Requirements</h3>
+    <p>
+      We may disclose information only when required by law, but this would be
+      limited to:
+    </p>
+    <ul>
+      <li>Account information (email address)</li>
+      <li>Technical metadata (if legally required)</li>
+      <li>
+        We cannot access your encrypted vault contents even if legally required
+      </li>
+    </ul>
+
+    <h2>5. Your Rights and Controls</h2>
+
+    <h3>5.1 Data Access and Control</h3>
+    <ul>
+      <li>
+        <strong>Full Control:</strong> You have complete control over your vault
+        data
+      </li>
+      <li>
+        <strong>Export:</strong> You can export your vault data at any time
+      </li>
+      <li>
+        <strong>Deletion:</strong> You can delete your account and all
+        associated data
+      </li>
+      <li>
+        <strong>Local Storage:</strong> All data remains on your device under
+        your control
+      </li>
+    </ul>
+
+    <h3>5.2 Security Settings</h3>
+    <ul>
+      <li>Configure app lock timeout periods</li>
+      <li>Enable/disable biometric authentication</li>
+      <li>Control screenshot prevention</li>
+      <li>Manage master password requirements</li>
+    </ul>
+
+    <h2>6. Third-Party Services</h2>
+
+    <h3>6.1 Device Services</h3>
+    <p>The app integrates with device services for enhanced security:</p>
+    <ul>
+      <li>
+        <strong>Biometric APIs:</strong> For fingerprint/face authentication
+        (processed locally)
+      </li>
+      <li>
+        <strong>Secure Storage:</strong> Device keychain/keystore for key
+        management
+      </li>
+      <li>
+        <strong>Camera/Gallery:</strong> For profile pictures (stored locally,
+        optional)
+      </li>
+    </ul>
+
+    <h3>6.2 No External Analytics</h3>
+    <ul>
+      <li>
+        We do not use Google Analytics, Facebook Analytics, or similar services
+      </li>
+      <li>No user behavior tracking or profiling</li>
+      <li>No advertising networks or marketing platforms</li>
+    </ul>
+
+    <h2>7. Children's Privacy</h2>
+    <p>
+      PassPad is not intended for children under 13 years of age. We do not
+      knowingly collect personal information from children under 13. If you
+      believe we have collected information from a child under 13, please
+      contact us immediately.
+    </p>
+
+    <h2>8. Data Retention</h2>
+    <ul>
+      <li><strong>Account Data:</strong> Retained until account deletion</li>
+      <li>
+        <strong>Vault Data:</strong> Stored locally until manually deleted by
+        user
+      </li>
+      <li>
+        <strong>Technical Logs:</strong> Automatically purged after 30 days
+      </li>
+      <li>
+        <strong>Deleted Data:</strong> Permanently removed from all systems
+      </li>
+    </ul>
+
+    <h2>9. International Data Transfers</h2>
+    <p>Since all sensitive data is stored locally on your device:</p>
+    <ul>
+      <li>Your vault contents never leave your device</li>
+      <li>
+        Only minimal account authentication data may be processed on our servers
+      </li>
+      <li>All server communications are encrypted and secured</li>
+    </ul>
+
+    <h2>10. Updates to This Privacy Policy</h2>
+    <p>We may update this privacy policy from time to time. When we do:</p>
+    <ul>
+      <li>We will notify users through the app</li>
+      <li>The "Last updated" date will be revised</li>
+      <li>
+        Continued use of the app constitutes acceptance of the updated policy
+      </li>
+      <li>Material changes will require explicit user consent</li>
+    </ul>
+
+    <h2>11. Security Incident Response</h2>
+    <p>In the unlikely event of a security incident:</p>
+    <ul>
+      <li>We will notify affected users promptly</li>
+      <li>Your vault contents remain protected by local encryption</li>
+      <li>We will provide guidance on protective measures</li>
+      <li>Incident details will be transparently communicated</li>
+    </ul>
+
+    <div class="contact-info">
+      <h2>12. Contact Information</h2>
+      <p>
+        If you have any questions about this Privacy Policy or our data
+        practices, please contact us:
+      </p>
+      <p>
+        <strong>Email:</strong> adbiyas01@gmail.com<br />
+        <strong>App:</strong> PassPad<br />
+        <strong>Developer:</strong> adbiyas01@gmail.com
+      </p>
+    </div>
+
+    <h2>13. Compliance</h2>
+    <p>This app is designed to comply with:</p>
+    <ul>
+      <li>
+        <strong>GDPR:</strong> European General Data Protection Regulation
+      </li>
+      <li><strong>CCPA:</strong> California Consumer Privacy Act</li>
+      <li><strong>COPPA:</strong> Children's Online Privacy Protection Act</li>
+      <li>
+        <strong>Google Play Policy:</strong> Google Play Developer Policy
+        requirements
+      </li>
+    </ul>
+
+    <div class="highlight">
+      <strong>Summary:</strong> PassPad prioritizes your privacy and security.
+      Your sensitive data is encrypted and stored locally on your device. We
+      collect minimal information necessary for app functionality and never
+      share your personal data with third parties. You maintain full control
+      over your data at all times.
+    </div>
+
+    <footer
+      style="
+        text-align: center;
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #ddd;
+        color: #666;
+      "
+    >
+      <p>© 2025 PassPad. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
